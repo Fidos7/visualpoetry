@@ -242,3 +242,59 @@ h1 {
     margin-left: 50px;
     margin-top: 20px;
 }
+.second-section {
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: poppins, monospace;
+}
+.about-wrapper {
+    overflow: hidden;
+    width: 100vw;
+    height: 200px;
+    position: relative;
+    margin-top: -950px;
+}
+
+.about {
+    color: white;
+    font-size: 170px;
+    font-weight: 600;
+    white-space: nowrap;
+    display: inline-block;
+    animation: scroll 15s linear infinite;
+    cursor: pointer;
+
+    position: absolute;
+    top: 0;                 /* uprav podľa potreby */
+    left: 20px;             /* tvoja pôvodná margin-left */
+    transform: translateY(0);
+}
+
+/* animácia pohybu len o polovicu textu */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+
+.about:hover {
+    animation-play-state: paused;
+}
+
+.main-image {
+    margin-left: -1400px;
+    margin-top: 270px;
+    transform: scale(0.7);
+
+
+
+
+}
