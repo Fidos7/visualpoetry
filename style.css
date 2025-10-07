@@ -114,12 +114,16 @@ h1 {
 }
 .number {
     font-size: 80px;
-    font-weight: bold;
+    font-family: poppins, monospace;
+    font-weight: 600;
+    font-style: italic;
     margin-left: 150px;
 }
 .k {
     font-size: 80px;
-    font-weight: bold;
+    font-family: poppins, monospace;
+    font-weight: 600;
+    font-style: italic;
 }
 .number-text {
     margin-left: 50px;
@@ -128,34 +132,49 @@ h1 {
     margin-left: 40px;
 }
 .orange-shape {
+    transform: scale(0.57);
+    margin-top: -320px;
+    margin-left: -270px;
+    position: absolute;
+
+}
+.hero-man {
+    margin-top: -73px;
+    margin-left: 240px;
+    z-index: 2;
+    position: absolute;
+    transform: scale(0.9);
+
+}
+.right-side {
     display: flex;
+    position: relative;
 }
-.orange-shape div {}
-.card {
-    width: 730px;
-    height: 520px;
-    background: #f4a533;
-    border-radius: 90px 65px 65px 65px;
-    margin-left: 50px;
+.signature{
+    position: absolute;
+    z-index: 3;
+    margin-left: 80px;
+    margin-top: 50px;
 }
-.card-1 {
-    width: 690px;
-    height: 770px;
-    background: #f4a533;
-    border-radius: 10px 70px 100px 100px;
-    margin-top: 100px;
-    margin-left: -600px;
+.arrow {
+    transform: scale(0.17);
+    margin-left: -200px;
+    margin-top: -510px;
 }
-.card-2 {
-    width: 90px;
-    height: 90px;
-    background: #f4a533;
-    margin-left: -90px;
+.man {
+    transform: scale(0.17);
+    margin-top: -510px;
+    margin-left: -200px;
 }
-
-
-
-
+.camera {
+    transform: scale(0.17);
+    margin-top: 290px;
+    margin-left: -200px;
+}
+.net {
+    transform: scale(0.9);
+    margin-left: 350px;
+}
 
 @keyframes pulse {
     0%, 100% { transform: scale(1); opacity: 1; }
