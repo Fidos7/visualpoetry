@@ -1,6 +1,8 @@
+
 .main {
     display: flex;
     font-family: 'poppins', monospace;
+    height: 100vh;
 }
 nav {
     display: flex;
@@ -14,6 +16,9 @@ nav {
 .logo:hover {
     transform: translateX(-200px);
     opacity: 0.5;
+}
+.nav-line {
+    opacity: 0.3;
 }
 ul li {
     display: inline;
@@ -99,7 +104,7 @@ h1 {
     height: 1px;
     background-color: gray;
     margin-top: 44px;
-    opacity: 0.5;
+    opacity: 0.2;
 }
 .main-numbers {
     display: flex;
@@ -257,6 +262,7 @@ h1 {
     height: 200px;
     position: relative;
     margin-top: -950px;
+    margin-right: -1690px;
 }
 
 .about {
@@ -267,10 +273,7 @@ h1 {
     display: inline-block;
     animation: scroll 15s linear infinite;
     cursor: pointer;
-
     position: absolute;
-    top: 0;                 /* uprav podľa potreby */
-    left: 20px;             /* tvoja pôvodná margin-left */
     transform: translateY(0);
 }
 
@@ -289,12 +292,18 @@ h1 {
     animation-play-state: paused;
 }
 
+.main-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    gap: 150px;
+}
+.cross {
+    width: 120px;
+    height: 600px;
+    margin-right: 2px;
+    margin-top: 60px;
+}
 .main-image {
-    margin-left: -1400px;
-    margin-top: 270px;
     transform: scale(0.7);
-
-
-
-
 }
