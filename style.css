@@ -277,7 +277,6 @@ h1 {
     transform: translateY(0);
 }
 
-/* animácia pohybu len o polovicu textu */
 @keyframes scroll {
     0% {
         transform: translateX(0);
